@@ -1,0 +1,14 @@
+.main_block {
+    height: 100vh;
+    background-color: darkorange;
+    display: flex;
+}
+.inner_text{
+    width: 300px;
+    background-color: #937d7d;
+}
+.inner_photo img{
+    width: 300px;
+    height: 400px;
+    background-color: #937d7d;
+}

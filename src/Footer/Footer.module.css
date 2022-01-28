@@ -1,0 +1,27 @@
+.footer_block {
+    background-color: #b79a1b;
+}
+
+.footer_container {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 90%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.contDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.someDiv {
+    margin: 2px;
+    width: 70px;
+    height: 70px;
+    background-color: beige;
+}

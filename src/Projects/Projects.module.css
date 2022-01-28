@@ -1,0 +1,20 @@
+.projects_block{
+    min-height:100vh;
+    background-color: #a87dcc;
+}
+.projects_container {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+}
+.title{
+    background-color: #937d7d;
+}
+.block_skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
