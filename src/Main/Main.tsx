@@ -1,20 +1,20 @@
 import React from "react";
-import style from "./Main.module.css"
+import style from "./Main.module.scss"
 import styleContainer from "../common/styles/Container.module.css"
-import {my_photo} from "../common/img";
+import {Info} from "./Info/Info";
 
 export function Main() {
     return (
         <div className={style.main_block}>
             <div className={styleContainer.container}>
-                <div className={style.inner_text}>
-                    <span>Hi there</span>
-                    <h1>I am</h1>
-                    <p>Frontend Developer.</p>
+                <div className={style.title}>
+                    <h1 className={style.inner_h1}>HI</h1>
+
+                    <h1>I am </h1>
+
+                    <h1> Frontend Developer</h1>
                 </div>
-                <div className={style.inner_photo}>
-                    <img src={my_photo}></img>
-                </div>
+                <Info/>
             </div>
         </div>
     )

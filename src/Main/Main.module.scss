@@ -1,0 +1,39 @@
+@import "../common/styles/variables";
+
+.main_block {
+  min-height: 70vh;
+  background-color: $primaryColor;
+  display: flex;
+
+  .title {
+    min-width: 300px;
+
+    h1 {
+      margin: 0;
+      margin-block: 0;
+      margin-inline: 0;
+      font-weight: 900;
+      font-family: Montserrat, sans-serif;
+      font-size: 100px;
+      line-height: 90px;
+      text-transform: uppercase;
+      background: linear-gradient(222deg, #ee076e 33%, #f81f01 66%, #b93527);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: #0B2349;
+      @media screen and (max-width: 1200px) {
+        font-size: 45px;
+        line-height: 50px;
+      }
+    }
+  }
+
+
+  .inner_photo img {
+    width: 300px;
+    height: 400px;
+    background-color: #937d7d;
+  }
+}
+
+
