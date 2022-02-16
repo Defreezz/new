@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./SkillItem.module.css"
+import style from "./SkillItem.module.scss"
 import {mySkill} from "../Skills";
 
 type SkillItemType = {

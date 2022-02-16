@@ -7,6 +7,7 @@ import {Projects} from "./Projects/Projects";
 import {LfaJob} from "./LfaJob/LfaJob";
 import {Contacts} from "./Contacts/Contacts";
 import {Footer} from "./Footer/Footer";
+import {About} from "./Main/About/About";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <div className="App">
             <Header/>
             <Main/>
+            <About/>
             <Skills/>
             <Projects/>
             <LfaJob/>

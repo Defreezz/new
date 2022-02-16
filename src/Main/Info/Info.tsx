@@ -12,9 +12,9 @@ export type Info = {
 
 }
 const info: Info[] = [
-    {title: "Умею", description: "Info InfoInfInfo InfoInfo Info InfoInfo InfoInfo Info Infoo Info Info", img:icon_1},
-    {title: "Делать", description: "Info InfoInfo InfoInfo Info InfoInfo InfoInfo Info InfoInfo", img:icon_2},
-    {title: "Дела", description: " Info afsaf Info InfoInfo Info InfoInfo InfoInfo Info Infosdf sdf sad fsd ", img:icon_3},
+    {title: "Work", description: "Info InfoInfInfo InfoInfo Info InfoInfo InfoInfo Info Infoo Info Info", img:icon_1},
+    {title: "Play", description: "Info InfoInfo InfoInfo Info InfoInfo InfoInfo Info InfoInfo", img:icon_2},
+    {title: "Bla", description: " Info afsaf Info InfoInfo Info InfoInfo InfoInfo Info Infosdf sdf sad fsd ", img:icon_3},
 ]
 
 
