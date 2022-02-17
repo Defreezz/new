@@ -13,7 +13,7 @@ export function Main() {
                         I am <br/>
                         Frontend<br/> Developer</h1>
                 </div>
-                <Info/>
+                {/*<Info/>*/}
             </div>
         </div>
     )

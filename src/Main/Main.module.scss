@@ -1,12 +1,13 @@
 @import "../common/styles/variables";
 
 .main_block {
-  min-height: 1080px;
+  min-height:780px;
   background-color: $primaryColor;
   display: flex;
 
   .main_container {
     max-width: 1260px;
+    width: 1110px;
     margin-right: auto;
     margin-left: auto;
 
@@ -15,9 +16,6 @@
       margin-bottom: 150px;
 
       h1 {
-        margin: 0;
-        margin-block: 0;
-        margin-inline: 0;
         font-weight: 900;
         font-family: Montserrat, sans-serif;
         font-size: 120px;
