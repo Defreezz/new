@@ -1,0 +1,31 @@
+@import "../../common/styles/variables";
+.projects_block{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background-color: $secondaryColor;
+    font-family: Poppins, sans-serif;
+    color: #c6c9d8;
+    .projects_container {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        max-width: 1260px;
+        margin-right: auto;
+        margin-left: auto;
+        .title{
+            font-weight: 800;
+            font-size: 34px;
+        }
+        .block_skills {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+
+

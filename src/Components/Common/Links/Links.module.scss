@@ -1,0 +1,17 @@
+
+.linksContainer {
+  a {
+    color: #B93527FF;
+    transition: all 0.4s ease-in-out 0s;
+
+    &:hover {
+      color: rgb(128, 37, 28);
+
+    }
+  }
+
+  .link {
+    margin-right: 15px;
+
+  }
+}
