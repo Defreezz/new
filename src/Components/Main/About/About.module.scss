@@ -1,6 +1,6 @@
 @import "../../../common/styles/variables";
 
-.about {
+.about_block {
   min-height: 30vh;
   background-color: $secondaryColor;
   width: 100%;
@@ -12,15 +12,27 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-bottom: 20px;
   }
 
   .aboutContainer {
     display: flex;
     flex-wrap: wrap;
     max-width: 1260px;
-    width: 1110px;
+    width: 1210px;
     margin-right: auto;
     margin-left: auto;
+    padding-left: 25px;
+    @media screen and (max-width: 800px) {
+      width: 760px;
+    }
+    @media screen and (max-width: 600px) {
+      padding-left: 0;
+    }
+    @media screen and (max-width: 480px) {
+      margin-left: 0;
+    }
+
 
     .avaContainer {
       @media screen and (max-width: 560px) {
@@ -30,15 +42,16 @@
 
       .ava {
         margin-top: -150px;
-        width: 400px;
+        width: 420px;
         border-radius: 30px;
-        @media screen and (max-width: 800px) {
-          width: 500px;
-        }
-        @media screen and (max-width: 360px) {
+        @media screen and (max-width: 600px) {
+          width: 380px;
           margin: 30px 20px;
-          width: 320px;
         }
+        @media screen and (max-width: 480px) {
+          width: 300px;
+        }
+
       }
     }
 
@@ -50,12 +63,23 @@
       font-family: Poppins, sans-serif;
       font-size: 24px;
       line-height: 15px;
+      @media screen and (max-width: 1200px) {
+        font-size: 20px;
+        line-height: 15px;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 16px;
+        line-height: 16px;
+      }
 
       h1 {
         font-weight: 900;
         font-size: 55px;
         line-height: 55px;
-
+        @media screen and (max-width: 480px) {
+          font-size: 26px;
+          line-height: 16px;
+        }
       }
 
       .email {
@@ -68,7 +92,8 @@
         }
       }
     }
-    .links{
+
+    .links {
       margin-top: 16px;
     }
   }

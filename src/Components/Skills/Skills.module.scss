@@ -3,7 +3,7 @@
 .skills_block {
   display: flex;
   flex-wrap: wrap;
-  min-height: 100vh;
+  min-height: 50vh;
   background-color: $primaryColor;
   font-family: Poppins, sans-serif;
   color: #c6c9d8;
@@ -13,7 +13,7 @@
     flex-direction: column;
     display: flex;
     max-width: 1260px;
-    width: 1110px;
+    width: 1210px;
     margin-right: auto;
     margin-left: auto;
     .title {

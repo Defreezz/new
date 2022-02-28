@@ -27,7 +27,11 @@ export const theme = createTheme({
                     opacity:0.5,
                     height: "200px",
                     position: "relative",
+                    '&:hover':{
+                        opacity:0.7,
+                    }
                 },
+
             }
         },
         MuiCardActions: {

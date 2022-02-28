@@ -10,7 +10,7 @@ import {Links} from "../../Common/Links/Links";
 
 export function About() {
     return (
-        <div className={style.about}>
+        <div className={style.about_block}>
             <div className={style.aboutContainer}>
                 <div className={style.avaContainer}>
 

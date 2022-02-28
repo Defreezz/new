@@ -4,16 +4,29 @@
   min-height:780px;
   background-color: $primaryColor;
   display: flex;
+  padding-left: 25px;
+  @media screen and (max-width: 1200px) {
+    min-height:580px;
+    padding: 25px;
+  }
+  @media screen and (max-width: 600px) {
+    min-height:380px;
+    padding: 25px;
+  }
 
   .main_container {
     max-width: 1260px;
-    width: 1110px;
+    width: 1210px;
     margin-right: auto;
     margin-left: auto;
+
 
     .title {
       min-width: 320px;
       margin-top: 100px;
+      @media screen and (max-width: 480px) {
+        margin-top: 60px;
+      }
 
       h1 {
         font-weight: 900;
@@ -32,6 +45,10 @@
         @media screen and (max-width: 600px) {
           font-size: 50px;
           line-height: 50px;
+        }
+        @media screen and (max-width: 480px) {
+          font-size: 45px;
+          line-height: 45px;
         }
       }
     }
